@@ -1,0 +1,227 @@
+/**ETIQUETAS DISEÑADAS ESPECIALMENTE PARA APLICACION RESTAURANTE*/
+{
+    -fx-primary : #2A2E37;
+    -fx-secondary : #7fac9c;
+    -fx-primarytext : #B2B2B2;
+    -fx-blue: #1976D2;
+    -fx-red: #FF0000;
+    -fx-green:#2E7D32;
+}
+#paneCocina{
+    -fx-background-image: url("/sample/Restaurante/resources/fondo.jpg");
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 1200 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 1100;
+    -fx-pref-height: 600;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#paneGuardar{
+    -fx-background-image: url("/sample/Restaurante/resources/fondo.jpg");
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 700 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 700;
+    -fx-pref-height: 600;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#PanePedidosDia{
+    /*-fx-background-image: url("/sample/Restaurante/resources/fondo.jpg");*/
+    -fx-background-color: #43423c;
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 600 500;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 600;
+    -fx-pref-height: 500;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#paneActualizar{
+    -fx-background-image: url("/sample/Restaurante/resources/fondo.jpg");
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 1000 480;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 850;
+    -fx-pref-height: 480;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#paneLogging{
+    -fx-background-image: url("/sample/Restaurante/resources/fondo.jpg");
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 300 180;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 300;
+    -fx-pref-height: 180;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#paneGraficas{
+    -fx-background-color: -fx-primary;
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 1150 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 1150;
+    -fx-pref-height: 600;
+    -fx-padding: 10 10 10 10;
+    -fx-spacing: 15;
+}
+#vBoxGraficas{
+    -fx-background-color: white;
+    /*-fx-background-image: url("/sample/Restaurante/resources/fondo.jpg");*/
+    -fx-spacing: 10px;
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-position: center center;
+    -fx-vpos: center;
+    -fx-hpos: center;
+}
+#lblTitleGraficas{
+    -fx-text-align: center;
+    -fx-text-fill: black;
+    -fx-font-style: italic;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13;
+}
+#labelResultados{
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 12;
+}
+#titulo{
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 15;
+}
+#flowPaneMenu{
+    -fx-padding: 20 0 20 0;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-background-color: Transparent;
+}
+#tarjeta{
+    -fx-background-color: #FEFFFF;
+    -fx-spacing: 12px;
+    -fx-height: 400px;
+    -fx-vpos: center;
+    -fx-hpos: center;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, #cd8787, 1, 0, 2, 2);
+    -fx-padding: 15 15 15 15; /**top, rigtht, bottom, left*/
+}
+#tarjeta:hover{
+    -fx-opacity:0.9;
+}
+#caracProducto{
+    -fx-background-color: #43423c;
+    -fx-background-repeat: stretch;
+    -fx-alignment: center;
+    -fx-background-size: 400 400;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#eliminarPedidos{
+    -fx-background-color: #43423c;
+    -fx-alignment: center;
+    -fx-pref-width: 750;
+    -fx-pref-height: 500;
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 15;
+}
+#botonTarjeta{
+    -fx-background-color: #de7057;
+}
+#botonTarjeta:hover{
+    -fx-background-color: Transparent;
+}
+#btnSalir{
+    -fx-background-color: #6a4b44;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+}
+#btn{
+     -fx-background-color: #71635b;
+     -fx-font-family: "Comic Sans MS";
+     -fx-font-size: 15;
+     -fx-text-fill: white;
+}
+#btnAbrirMesa:hover{
+    -fx-background-color: #6a4b44;
+}
+#fontIcons{
+    -fx-font-family: FontAwesome;
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+#btnIcons{
+    -fx-text-fill: green;
+    -fx-background-color: #ffffff;
+}
+#barChartGraficas{
+    -fx-pref-width: 300.00;
+}
+.scroll-pane > .viewport{
+    -fx-background-color: transparent;
+}
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+.scroll-pane .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 0em;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 230;
+    -fx-tab-max-width: 230;
+}
+.tab-pane *.tab-header-background{
+    -fx-background-color: transparent;
+}
+.tab-pane *.tab-content-background{
+    -fx-background-color: transparent;
+}
+.tab{
+    -fx-background-color: transparent;
+}
+.tab:selected
+{
+    -fx-background-color: #71635b;
+    -fx-border-color: transparent;
+}
+.tab:selected .focus-indicator
+{
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+.tab-label{
+    -fx-font-family: "PixelSplitter";
+    -fx-font-size: 10pt;
+    -fx-text-fill: #FFFFFF;
+}

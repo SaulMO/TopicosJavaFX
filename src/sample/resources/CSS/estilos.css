@@ -1,0 +1,32 @@
+.root{
+     -fx-background-image: url("/sample/resources/imagenes/ITC.jpg"), url("/sample/resources/imagenes/IT.png");
+     -fx-background-size: 1366 1024, 325 200;
+     -fx-background-repeat: stretch, no-repeat;
+     -fx-background-position: center top, center top;
+}
+.menu-bar{
+    -fx-background-color: #2A2E37;
+    -fx-border-color: transparent;
+    -fx-border-width: 5;
+}
+.menu{
+    -fx-background-color: #a94d39;
+}
+.menu .label{
+    -fx-background-color: transparent;
+    -fx-font-family: "MV Boli";
+    -fx-font-size: 10pt;
+    -fx-text-fill: #FFF;
+}
+.menu:hover{
+    -fx-background-color: #2A2E37;
+}
+.menu:hover .label{
+    -fx-background-color: transparent;
+    -fx-font-size: 12pt;
+    -fx-text-fill: #FFFF8D;
+}
+.menu-item{
+    -fx-background-color: #2A2E37;
+    -fx-text-fill: #fff;
+}
